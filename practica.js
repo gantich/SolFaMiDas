@@ -391,7 +391,6 @@ Player.playSong = function(imagepath,title,artist,idartist,album,url,idsong,idal
   this.info.idalbum = idalbum;
   this.info.url=url;
   this.info.idcancion=idsong;
-  this.audio.volume = 0.001;
   this.audio.play();
 }
 /*Esta función nos permite pausar el sonido.
